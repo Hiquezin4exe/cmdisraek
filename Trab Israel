@@ -1,0 +1,190 @@
+Microsoft Windows [versão 10.0.19045.5011]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Windows\system32>git clone https://github.com/Hiquezin4exe/cmdxisrael
+fatal: destination path 'cmdxisrael' already exists and is not an empty directory.
+
+C:\Windows\system32>cd cmdxisrael
+
+C:\Windows\System32\cmdxisrael>echo %poing%
+%poing%
+
+C:\Windows\System32\cmdxisrael>ipconfig
+
+Configuração de IP do Windows
+
+
+Adaptador Ethernet Ethernet 2:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::6185:d722:8c77:2cb9%8
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.56.1
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . :
+
+Adaptador Ethernet Ethernet:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::9047:8885:85da:7f3c%16
+   Endereço IPv4. . . . . . . .  . . . . . . . : 10.67.168.113
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.254.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 10.67.168.1
+
+Adaptador Ethernet vEthernet (Default Switch):
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::4412:8ae0:ffa9:d5f1%31
+   Endereço IPv4. . . . . . . .  . . . . . . . : 172.22.176.1
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padrão. . . . . . . . . . . . . . . :
+
+C:\Windows\System32\cmdxisrael>ipconfig findstr "IPv4 > ip_adress.txt
+
+Erro: linha de comando não reconhecida ou incompleta.
+
+USO:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+onde
+    adapter           Nome da conexão
+                     (caracteres curinga * e ? permitidos; consulte exemplos)
+
+    Opções:
+       /?               Exibir esta mensagem de ajuda
+       /all             Exibir informações completas sobre configuração.
+       /release         Liberar o endereço IPv4 para o adaptador especificado.
+       /release6        Liberar o endereço IPv6 para o adaptador especificado.
+       /renew           Renovar o endereço IPv4 para o adaptador especificado.
+       /renew6          Renovar o endereço IPv6 para o adaptador especificado.
+       /flushdns        Limpa o cache do DNS Resolver.
+       /registerdns     Atualiza todas as concessões de DHCP e registra
+                        novamente nomes DNS
+       /displaydns      Exibir o conteúdo do Cache do DNS Resolver.
+       /showclassid     Exibe todas as IDs de classe dhcp permitidas para o
+                        adaptador.
+       /setclassid      Modifica a ID de classe dhcp.
+       /showclassid6    Exibe todas as IDs de classe DHCP IPv6 permitidas para
+                        o adaptador.
+       /setclassid6     Modifica a ID de classe DHCP IPv6.
+
+
+O padrão é exibir apenas o endereço IP, a máscara de sub-rede e
+o gateway padrão para cada adaptador limitado ao TCP/IP.
+
+Para Release e Renew, se nenhum nome de adaptador for especificado,
+as concessões de endereços IP para todos os adaptadores limitados
+ao TCP/IP serão liberadas ou renovadas.
+
+Para Setclassid e Setclassid6, se nenhuma ClassId for especificada, ClassId
+será removida.
+
+Exemplos:
+    > ipconfig                       ... Mostrar informações
+    > ipconfig /all                  ... Mostrar informações detalhadas
+    > ipconfig /renew                ... renovar todos os adaptadores
+    > ipconfig /renew EL*            ... renovar qualquer conexão cujo nome
+                                         seja iniciado por EL
+    > ipconfig /release *Con*        ... liberar todas as conexões
+                                         correspondentes, por exemplo,
+                                          "Conexão Ethernet com Fio 1" ou
+                                         "Conexão Ethernet com Fio 2"
+    > ipconfig /allcompartments      ... Mostra informações sobre todos os
+                                         compartimentos
+    > ipconfig /allcompartments /all ... Mostra informações detalhadas sobre
+                                         todos os compartimentos
+
+C:\Windows\System32\cmdxisrael>ipconfig findstr "IPv4
+
+Erro: linha de comando não reconhecida ou incompleta.
+
+USO:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+onde
+    adapter           Nome da conexão
+                     (caracteres curinga * e ? permitidos; consulte exemplos)
+
+    Opções:
+       /?               Exibir esta mensagem de ajuda
+       /all             Exibir informações completas sobre configuração.
+       /release         Liberar o endereço IPv4 para o adaptador especificado.
+       /release6        Liberar o endereço IPv6 para o adaptador especificado.
+       /renew           Renovar o endereço IPv4 para o adaptador especificado.
+       /renew6          Renovar o endereço IPv6 para o adaptador especificado.
+       /flushdns        Limpa o cache do DNS Resolver.
+       /registerdns     Atualiza todas as concessões de DHCP e registra
+                        novamente nomes DNS
+       /displaydns      Exibir o conteúdo do Cache do DNS Resolver.
+       /showclassid     Exibe todas as IDs de classe dhcp permitidas para o
+                        adaptador.
+       /setclassid      Modifica a ID de classe dhcp.
+       /showclassid6    Exibe todas as IDs de classe DHCP IPv6 permitidas para
+                        o adaptador.
+       /setclassid6     Modifica a ID de classe DHCP IPv6.
+
+
+O padrão é exibir apenas o endereço IP, a máscara de sub-rede e
+o gateway padrão para cada adaptador limitado ao TCP/IP.
+
+Para Release e Renew, se nenhum nome de adaptador for especificado,
+as concessões de endereços IP para todos os adaptadores limitados
+ao TCP/IP serão liberadas ou renovadas.
+
+Para Setclassid e Setclassid6, se nenhuma ClassId for especificada, ClassId
+será removida.
+
+Exemplos:
+    > ipconfig                       ... Mostrar informações
+    > ipconfig /all                  ... Mostrar informações detalhadas
+    > ipconfig /renew                ... renovar todos os adaptadores
+    > ipconfig /renew EL*            ... renovar qualquer conexão cujo nome
+                                         seja iniciado por EL
+    > ipconfig /release *Con*        ... liberar todas as conexões
+                                         correspondentes, por exemplo,
+                                          "Conexão Ethernet com Fio 1" ou
+                                         "Conexão Ethernet com Fio 2"
+    > ipconfig /allcompartments      ... Mostra informações sobre todos os
+                                         compartimentos
+    > ipconfig /allcompartments /all ... Mostra informações detalhadas sobre
+                                         todos os compartimentos
+
+C:\Windows\System32\cmdxisrael>ipconfig findstr "IPv4" > ip_adress.txt
+
+C:\Windows\System32\cmdxisrael>notepad ip_adress.txt
+
+C:\Windows\System32\cmdxisrael>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ip_adress.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Windows\System32\cmdxisrael>git config --global user.name "Israel"
+
+C:\Windows\System32\cmdxisrael>git config --global user.email "Israel@gmail.com"
+
+C:\Windows\System32\cmdxisrael>git config --global user.name
+Israel
+
+C:\Windows\System32\cmdxisrael>git config --global user.email
+Israel@gmail.com
+
+C:\Windows\System32\cmdxisrael>
